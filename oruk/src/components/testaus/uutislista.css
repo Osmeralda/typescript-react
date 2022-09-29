@@ -1,0 +1,28 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 100%;
+}
+.card {
+    width: auto;
+    background-color: white;
+    padding: 1em;
+    margin: 20px;
+    border-radius: 0;
+    background-color: white;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    border: none;
+}
+.card p {
+    margin-left: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card-header {
+    background-color: white;
+    border: none;
+    margin-left: none;
+}

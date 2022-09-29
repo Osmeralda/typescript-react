@@ -1,0 +1,28 @@
+.muokkaus-sivu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px;
+}
+.muokkaus-sivu h2 {
+    font-size: 1em;
+}
+.muokkaus-sivu h3 {
+    font-size: 1em;
+}
+.front-page {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20em;
+    margin-left: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.front-page h3 {
+    font-size: 3em;
+}
+.front-page p {
+    font-size: 1em;
+}
